@@ -43,7 +43,12 @@ componentDidMount(){
        
       
     return (
+      
       <section className="Section">
+        <div className="section-intro">
+          <p>Please! select you favorite Quote </p>
+          <p>and posted twitter...</p>
+        </div>
         <div id="quote-box" className="Contenedor_Principal">
           <div className="Principal_Citas">
             <Quote Cita={this.state.quote}/>
